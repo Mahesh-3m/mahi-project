@@ -1,0 +1,66 @@
+/* Main container */
+.about-h {
+    min-height: 100vh;
+    background-color:white; /* linear-gradient(135deg, #0f2027, #203a43, #2c5364);*/
+    padding: 60px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Title section */
+.about-t {
+    margin-bottom: 30px;
+}
+
+.about-t h1 {
+    font-size: 40px;
+    color: #ffd32a;
+    letter-spacing: 2px;
+    position: relative;
+}
+
+/* Underline effect */
+.about-t h1::after {
+    content: "";
+    display: block;
+    width: 70px;
+    height: 4px;
+    background-color: #ffd32a;
+    margin: 10px auto 0;
+    border-radius: 5px;
+}
+
+/* Description box */
+.about-d {
+    max-width: 900px;
+    background-color: black;
+    padding: 35px 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(10px);
+}
+
+/* Paragraph text */
+.about-d p {
+    color: #f1f2f6;
+    font-size: 18px;
+    line-height: 1.8;
+    text-align: justify;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .about-t h1 {
+        font-size: 32px;
+    }
+
+    .about-d {
+        padding: 25px 20px;
+    }
+
+    .about-d p {
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,50 @@
+/* Footer container */
+.footer {
+  background-color: bisque;
+  padding: 30px 0;
+  text-align: center;
+  color: black;
+  margin-top: 60px;
+}
+
+/* Text */
+.footer-t h3 {
+  margin-bottom: 20px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+/* Icons container */
+.footer-d {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  color:black;
+}
+
+/* Icons */
+.footer-d img {
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  filter: brightness(0) invert(1);
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+/* Hover effect */
+.footer-d img:hover {
+  transform: scale(1.2);
+  opacity: 0.8;
+}
+
+/* Mobile view */
+@media (max-width: 600px) {
+  .footer-d img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .footer-t h3 {
+    font-size: 14px;
+  }
+}

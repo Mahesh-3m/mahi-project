@@ -1,0 +1,105 @@
+/**{
+  margin:0px;
+  padding:0px;
+  font-family:wandana,sans-serif;
+}
+body{
+  border:3px solid red;
+  height:100%;
+  
+}
+/*.nav-bar ul{
+  display:flex;
+  justify-content:space-evenly;
+  list-style:none;
+  text-align:center;
+  cursor:pointer;
+}
+.nav-bar{
+  background-color:aqua;
+  color:red;
+  width:100%;
+  height:30px;
+}
+.home-page{
+  text-align:center;
+  
+  border-bottom:2px solid black;
+  align-items:center;
+  height:700px;
+  
+
+
+}
+.home-page img{
+  background-image:url("assets/mahesh")
+}
+.about-h{
+  height:700px;
+  border-bottom:3px solid black;
+}
+.about-t{
+  background-color:beige;
+  color:black;
+  margin:5px 0px;
+}
+.about-d{
+  text-align:justify;
+  box-sizing:content-box;
+  padding:50px;
+  line-height:1.5cm;
+  text-align-last:center;
+}
+.contact{
+  display:flex;
+}
+.contact-h{
+  width:50%;
+  height:600px;
+  padding:50px;
+}
+
+.contact-d{
+  display:flex;
+  flex-direction:column;
+  line-height:1.5cm;
+}
+.contact-my-h{
+  width:50%;
+  height:600px;
+  padding:50px;
+}
+.contact-my-d{
+  line-height:1.5cm;
+  display:flex;
+  flex-direction:column;
+}
+.footer{
+  background-color:aqua;
+
+}
+.footer-t h3{
+  text-align:center;
+}
+.footer-d{
+  display:flex;
+  justify-content:center;
+  gap:5px;
+}
+.img-h h2{
+  background-color:antiquewhite;
+}
+.image{
+  display:flex;
+  justify-content:space-evenly;
+  margin:50px;
+  
+}
+.image img{
+  width:200px;
+  height:200px;
+  gap:50px;
+}
+.img-h{
+  height:700px;
+}*/

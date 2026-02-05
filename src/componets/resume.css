@@ -1,0 +1,155 @@
+/*.resume{
+    margin:0px;
+    padding:0px;
+    border:5px solid green;
+    
+}
+.resume-h{
+    padding:10px;
+    line-height:1.5cm;
+}
+.resume-h h1{
+    display:flex;
+    justify-content:center;
+    
+    
+}
+.resume-d {
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    gap:50px;
+    
+    
+    
+}
+.career h3, .edu h2, .skill h2, .proj h2, .strength h2{
+    background-color:antiquewhite;
+    margin:3px;
+    padding:5px;
+
+}
+.edu-d{
+    line-height:1.5cm;
+    text-align:center;
+}
+.skill ul, .proj p, .strength p, .career p{
+    display:flex;
+    flex-direction:column;
+    margin-left:50px;
+    line-height:1cm;
+}*/
+/* Page */
+.resume {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 40px 50px;
+  background-color:light white;
+  color: #222;
+  font-family: "Segoe UI", Tahoma, Arial, sans-serif;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+.resume-h {
+  text-align: center;
+  border-bottom: 2px solid #0d6efd;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+}
+
+.resume-h h1 {
+  margin: 0;
+  font-size: 30px;
+  letter-spacing: 2px;
+  color: #0d6efd;
+}
+
+.resume-d {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+  font-size: 14px;
+}
+
+/* Section common styles */
+.career,
+.edu,
+.skill,
+.proj,
+.strength {
+  margin-bottom: 30px;
+}
+
+.career h3,
+.edu h2,
+.skill h2,
+.proj h2,
+.strength h2 {
+  color: #0d6efd;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+  letter-spacing: 1px;
+}
+
+/* Career objective */
+.career p {
+  line-height: 1.6;
+  font-size: 15px;
+}
+
+/* Education */
+.edu-d h3 {
+  margin: 10px 0 5px;
+  font-size: 16px;
+  color: #333;
+}
+
+.edu-d p {
+  margin: 0 0 10px;
+  font-size: 14px;
+  color: #555;
+}
+
+/* Skills */
+.skill ul {
+  list-style: square;
+  padding-left: 20px;
+}
+
+.skill li {
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.skill strong {
+  color: #333;
+}
+
+/* Projects */
+.proj p {
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+/* Strengths */
+.strength p {
+  display: inline-block;
+  margin-right: 15px;
+  margin-bottom: 8px;
+  padding: 6px 12px;
+  background: #f1f3f5;
+  border-radius: 6px;
+  font-size: 13px;
+}
+
+/* Print-friendly */
+@media print {
+  .resume {
+    box-shadow: none;
+    margin: 0;
+  }
+}

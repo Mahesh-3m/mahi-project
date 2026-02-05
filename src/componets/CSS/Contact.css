@@ -1,0 +1,140 @@
+/* Page wrapper */
+.cont {
+  background: #f4f6f8;
+  min-height: 100vh;
+  padding: 40px 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Page title */
+.cont h1 {
+  text-align: center;
+  margin-bottom: 40px;
+  color: #222;
+  letter-spacing: 3px;
+}
+
+/* Main card */
+.contact {
+  width: 85%;
+  margin: auto;
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  display:flex;
+  gap:50px;
+}
+
+/* Two main sections */
+.contact-h,
+.contact-my-h {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 50px;
+}
+
+/* Section titles */
+.contact-t h2,
+.contact-my-t h2 {
+  min-width: 180px;
+  color: #0d6efd;
+}
+
+/* Form container */
+.contact-d {
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+}
+
+/* Labels */
+.contact-d label {
+  margin-top: 12px;
+  font-weight: 600;
+  color: #333;
+}
+
+/* Inputs & textarea */
+.contact-d input,
+.contact-d textarea {
+  margin-top: 6px;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.contact-d input:focus,
+.contact-d textarea:focus {
+  outline: none;
+  border-color: #0d6efd;
+  box-shadow: 0 0 0 2px rgba(13, 110, 253, 0.2);
+}
+
+.contact-d textarea {
+  resize: none;
+  height: 70px;
+}
+
+/* Radio buttons */
+.contact-d input[type="radio"] {
+  margin-right: 6px;
+  margin-left: 10px;
+}
+
+/* Submit button */
+.contact-d button {
+  margin-top: 25px;
+  padding: 12px;
+  background: linear-gradient(135deg, #0d6efd, #0b5ed7);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.contact-d button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(13, 110, 253, 0.3);
+}
+
+/* My details box */
+.contact-my-d {
+  background: #f8f9fa;
+  padding: 20px 30px;
+  border-radius: 10px;
+  width: 300px;
+}
+
+.contact-my-d h3 {
+  margin: 12px 0 4px;
+  color: #444;
+}
+
+.contact-my-d p {
+  margin: 0;
+  color: #666;
+  font-size: 14px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .contact-h,
+  .contact-my-h {
+    flex-direction: column;
+  }
+
+  .contact-d,
+  .contact-my-d {
+    width: 100%;
+  }
+
+  .contact {
+    padding: 25px;
+  }
+}
