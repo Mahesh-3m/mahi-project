@@ -1,0 +1,42 @@
+.Footer{
+    margin: 50px;
+    line-height:1.5cm;
+}
+.Footer-Logo img{
+    width:50px;
+    height:50px;
+    
+
+    
+}
+.Footer-Logo{
+    display:flex;
+    justify-content:center;
+    gap:50px;
+    align-items:baseline;
+}
+.Footer-Logo p{
+    font-size:50px;
+}
+.Footer-ul{
+    display:flex;
+    justify-content:center;
+    gap:50px;
+}
+.Footer-ul li{
+    
+    list-style:none;
+    font-size:20px;
+   
+    
+    
+}
+.F-logo{
+    display:flex;
+    justify-content:center;
+    gap:50px;
+    cursor:pointer;
+}
+.Footer-d p{
+    text-align:center;
+}

@@ -1,0 +1,14 @@
+.Breadcrum{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    color:#5e5e5e;
+    font-size:16px;
+    font-weight:600px;
+    margin:60px 170px;
+    text-transform:capitalize;
+}
+.Breadcrum img{
+    width:30px;
+    height:30px;
+}

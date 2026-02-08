@@ -1,0 +1,28 @@
+.banners img{
+    display:block;
+    margin:30px auto;
+    width:80%;
+    height:50vh;
+}
+.cloths{
+    margin:20px 100px;
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    gap:50px;
+    row-gap:50px;
+}
+.More {
+    display:flex;
+    justify-content:center;
+    text-align:center;
+    
+}
+.More button{
+    border:none;
+    border-radius:20px;
+    width:120px;
+    height:50px;
+    font-size:20px;
+    font-weight:10px;
+    cursor:pointer;
+}

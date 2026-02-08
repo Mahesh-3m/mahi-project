@@ -1,0 +1,46 @@
+.sign{
+    
+    width:100%;
+    height:80vh;
+    background-color:antiquewhite;
+    padding-top:100px;
+    margin-top:50px;
+}
+.sign-h{
+    width:300px;
+    height:400px;
+    background-color:white;
+    padding:10px 30px;
+    margin:auto;
+}
+.sign-d{
+   display:flex;
+   flex-direction:column;
+   gap:15px; 
+}
+.sign-d input{
+    width:100%;
+    height:20px;
+    border:1px solid black;
+    padding-left:20px;
+
+}
+.sign-h button{
+    margin-top:20px;
+    cursor:pointer;
+    background-color:red;
+    color:white;
+    border:none;
+    width:70px;
+    height:30px;
+    border-radius:10px;
+}
+.sign-h p span:hover{
+    color:blue;
+    cursor:pointer;
+}
+.signup{
+    display:flex;
+    align-items:baseline;
+    gap:30px;
+}

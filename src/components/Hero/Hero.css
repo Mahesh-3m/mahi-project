@@ -1,0 +1,46 @@
+.Hero{
+    display:flex;
+   
+    background-color:aquamarine;
+}
+.Hero-d{
+    width:50%;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    
+
+}
+.Hero-d img{
+    flex:1;
+    width:300px;
+    height:600px; 
+    justify-content:center;
+    border-radius:50%;
+    padding:40px;
+}
+.Hero-h p{
+    font-size:50px;
+    display:flex;
+    justify-content:column;
+}
+.Hero-h p:hover{
+    color:rgb(240, 14, 112);
+}
+.Hero button{
+    background-color:brown;
+    border-radius:75px;
+    font-size:30px;
+    cursor:pointer;
+    width:200px;
+    color:white;
+    
+}
+.Hero-h{
+    display:flex;
+    flex-direction:column;
+    line-height:1.5cm;
+    justify-content:center;
+    padding:40px;
+    text-align-last:center;
+}

@@ -1,0 +1,12 @@
+.Related{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:10px;
+    height:90vh;
+}
+.Related_image{
+    margin-top:10px;
+    display:flex;
+    gap:30px;
+}
